@@ -14,4 +14,8 @@ class home extends CI_Controller {
 		$this->load->view('home'); // render html
 
 	}
+	public function smartmenu()
+	{
+		$this->load->view('smartmenu'); // render html
+	}
 }
