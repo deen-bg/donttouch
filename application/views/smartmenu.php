@@ -3,41 +3,41 @@
 
 <head>
     <meta charset="utf-8">
-    
+
     <!--====== Title ======-->
     <title>Smash - Bootstrap Business Template</title>
-    
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="<?=base_url('assets/images/favicon.png');?>" type="image/png">
-        
+    <link rel="shortcut icon" href="<?= base_url('assets/images/favicon.png'); ?>" type="image/png">
+
     <!--====== Magnific Popup CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/magnific-popup.css')?>">
-        
+    <link rel="stylesheet" href="<?= base_url('assets/css/magnific-popup.css') ?>">
+
     <!--====== Slick CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/slick.css')?>">
-        
+    <link rel="stylesheet" href="<?= base_url('assets/css/slick.css') ?>">
+
     <!--====== Line Icons CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/LineIcons.css')?>">
-        
+    <link rel="stylesheet" href="<?= base_url('assets/css/LineIcons.css') ?>">
+
     <!--====== Bootstrap CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css')?>">
-    
+    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
+
     <!--====== Default CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/default.css')?>">
-    
+    <link rel="stylesheet" href="<?= base_url('assets/css/default.css') ?>">
+
     <!--====== Style CSS ======-->
-    <link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>">
-    
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+
 </head>
 
 <body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-   
+
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -58,7 +58,7 @@
     </div>
 
     <!--====== PRELOADER PART ENDS ======-->
-    
+
     <!--====== NAVBAR TWO PART START ======-->
 
     <section class="navbar-area">
@@ -66,11 +66,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
-                       
+
                         <a class="navbar-brand" href="#">
-                            <img src="<?=base_url('assets/images/logo.svg')?>" alt="Logo">
+                            <img src="<?= base_url('assets/images/logo.svg') ?>" alt="Logo">
                         </a>
-                        
+
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon"></span>
                             <span class="toggler-icon"></span>
@@ -88,8 +88,8 @@
                                 <li class="nav-item"><a class="page-scroll" href="#contact">Contact</a></li>
                             </ul>
                         </div>
-                        
-                        
+
+
                     </nav> <!-- navbar -->
                 </div>
             </div> <!-- row -->
@@ -97,7 +97,7 @@
     </section>
 
     <!--====== NAVBAR TWO PART ENDS ======-->
-    
+
     <!--====== FEATRES TWO PART START ======-->
 
     <section id="services" class="features-area">
@@ -117,7 +117,7 @@
                             <h4 class="features-title"><a href="#">Graphics Design</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-brush"></i>
-                                <img class="shape" src="<?=base_url('assets/images/f-shape-1.svg')?>" alt="Shape">
+                                <img class="shape" src="<?= base_url('assets/images/f-shape-1.svg') ?>" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -132,7 +132,7 @@
                             <h4 class="features-title"><a href="#">Website Design</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-layout"></i>
-                                <img class="shape" src="<?=base_url('assets/images/f-shape-1.svg')?>" alt="Shape">
+                                <img class="shape" src="<?= base_url('assets/images/f-shape-1.svg') ?>" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -147,7 +147,7 @@
                             <h4 class="features-title"><a href="#">Digital Marketing</a></h4>
                             <div class="features-icon">
                                 <i class="lni lni-bolt"></i>
-                                <img class="shape" src="<?=base_url('assets/images/f-shape-1.svg')?>" alt="Shape">
+                                <img class="shape" src="<?= base_url('assets/images/f-shape-1.svg') ?>" alt="Shape">
                             </div>
                         </div>
                         <div class="features-content">
@@ -157,11 +157,71 @@
                     </div> <!-- single features -->
                 </div>
             </div> <!-- row -->
+            <!-- r2 -->
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/01.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/02.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/03.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/04.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/05.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/06.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/07.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="single-features mt-40">
+                        <div>
+                            <img src="<?= base_url('/assets/images/smartmenu/08.png') ?>" alt="">
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
         </div> <!-- container -->
     </section>
 
+
     <!--====== FEATRES TWO PART ENDS ======-->
-    
+
 
     <!--====== FOOTER PART START ======-->
 
@@ -170,7 +230,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="<?=base_url('assets/images/logo.svg')?>" alt="Logo"></a>
+                        <a class="mt-30" href="index.html"><img src="<?= base_url('assets/images/logo.svg') ?>" alt="Logo"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://facebook.com/uideckHQ"><i class="lni lni-facebook-filled"></i></a></li>
@@ -191,16 +251,16 @@
     </section>
 
     <!--====== FOOTER PART ENDS ======-->
-    
+
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
 
-    <!--====== BACK TOP TOP PART ENDS ======-->    
+    <!--====== BACK TOP TOP PART ENDS ======-->
 
     <!--====== PART START ======-->
 
-<!--
+    <!--
     <section class="">
         <div class="container">
             <div class="row">
@@ -218,33 +278,33 @@
 
 
     <!--====== Jquery js ======-->
-    <script src="<?=base_url('assets/js/vendor/jquery-1.12.4.min.js')?>"></script>
-    <script src="<?=base_url('assets/js/vendor/modernizr-3.7.1.min.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/vendor/jquery-1.12.4.min.js') ?>"></script>
+    <script src="<?= base_url('assets/js/vendor/modernizr-3.7.1.min.js') ?>"></script>
+
     <!--====== Bootstrap js ======-->
-    <script src="<?=base_url('assets/js/popper.min.js')?>"></script>
-    <script src="<?=base_url('assets/js/bootstrap.min.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
+    <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
+
     <!--====== Slick js ======-->
-    <script src="<?=base_url('assets/js/slick.min.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/slick.min.js') ?>"></script>
+
     <!--====== Magnific Popup js ======-->
-    <script src="<?=base_url('assets/js/jquery.magnific-popup.min.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/jquery.magnific-popup.min.js') ?>"></script>
+
     <!--====== Ajax Contact js ======-->
-    <script src="<?=base_url('assets/js/ajax-contact.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/ajax-contact.js') ?>"></script>
+
     <!--====== Isotope js ======-->
-    <script src="<?=base_url('assets/js/imagesloaded.pkgd.min.js')?>"></script>
-    <script src="<?=base_url('assets/js/isotope.pkgd.min.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/imagesloaded.pkgd.min.js') ?>"></script>
+    <script src="<?= base_url('assets/js/isotope.pkgd.min.js') ?>"></script>
+
     <!--====== Scrolling Nav js ======-->
-    <script src="<?=base_url('assets/js/jquery.easing.min.js')?>"></script>
-    <script src="<?=base_url('assets/js/scrolling-nav.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/jquery.easing.min.js') ?>"></script>
+    <script src="<?= base_url('assets/js/scrolling-nav.js') ?>"></script>
+
     <!--====== Main js ======-->
-    <script src="<?=base_url('assets/js/main.js')?>"></script>
-    
+    <script src="<?= base_url('assets/js/main.js') ?>"></script>
+
 </body>
 
 </html>
